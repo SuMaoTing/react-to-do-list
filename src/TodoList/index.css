@@ -1,0 +1,28 @@
+.Container p{
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+.Container button{
+    border: none;
+    font-size: 13px;
+}
+.deleteButton{
+    border: none;
+    font-size: 13px;
+}
+.CheckBox{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.CheckBox input{
+    margin: 5px;
+}
+.task-checked{
+    text-decoration: line-through;
+}
+.AddBox{
+    display:flex;
+    justify-content:center; 
+}
